@@ -16,7 +16,7 @@ for key in keys:
     print(f"Key: {key}")
 
     try:
-        # Try to decode the value as UTF-8 text geet
+
         value = r.get(key)
         try:
             # Try parsing as JSON
